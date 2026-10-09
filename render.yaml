@@ -3,4 +3,6 @@ services:
     name: rammerhead
     runtime: docker
     plan: free
+    repo: https://github.com/blackbargoat/rammerhead
+    branch: master
     healthCheckPath: /
